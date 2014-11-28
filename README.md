@@ -6,10 +6,14 @@ Application which is able to save data to MYSQL database which are entered at th
 Installation
 ------------
 
-Configure your server to be starting directory /public
+Configure your server to be starting directory
+```
+/public
+```
 
 Apache vhost example configuration on Windows 7
 ------------
+```
 <VirtualHost *:80>
  DocumentRoot "C:/application_folder/public"
  ServerName zend_test
@@ -20,3 +24,4 @@ Apache vhost example configuration on Windows 7
      Require all granted
  </Directory>
  </VirtualHost>
+ ```
